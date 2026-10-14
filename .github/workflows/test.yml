@@ -8,7 +8,6 @@ on:
   push:
   schedule:
     - cron: "*/5 * * * *"
-  workflow_dispatch: # manual trigger.
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
